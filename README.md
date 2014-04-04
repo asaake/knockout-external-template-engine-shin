@@ -1,7 +1,13 @@
 # knockout-external-template-engine-shin
 
+* required
+  * knockout.js <= 3.0
+  * jquery.js <= 2.0
+  * sugar.js <= 1.4
+
 ```coffee
 # usage
+# = require ko-external-template-engine.js
 viewModel = new StubViewModel()
 ko.setTemplateEngine(new ko.KoExternalTemplateEngine({
   async: true
