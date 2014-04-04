@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <script src="/vendor.coffee" type="text/javascript"></script>
+    <script src="/ko-external-template-engine.coffee" type="text/javascript"></script>
+    <script src="/stub/state.coffee" type="text/javascript"></script>
+    <script src="/stub/view-model.coffee" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            var viewModel = new StubViewModel();
+            ko.setTemplateEngine(new ko.KoExternalTemplateEngine({async: true}));
+            ko.applyBindings(viewModel)
+        });
+    </script>
+</head>
+<body>
+    Show Edit Templates: <input type="checkbox" data-bind="checked: isEditable" />
+    <ul id="tmpl" data-bind="template: { name: whichTemplateToUse, foreach: items }"></ul>
+</body>
+</html>
