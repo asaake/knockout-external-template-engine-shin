@@ -1,0 +1,13 @@
+{
+  "assets": {
+    "ko-external-template-engine.js": "ko-external-template-engine-f8fe92004e893c71bf6d6ae713ba2521.js"
+  },
+  "files": {
+    "ko-external-template-engine-f8fe92004e893c71bf6d6ae713ba2521.js": {
+      "logical_path": "ko-external-template-engine.js",
+      "mtime": "2014-04-03T16:07:06.000Z",
+      "size": 4078,
+      "digest": "f8fe92004e893c71bf6d6ae713ba2521"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "knockout-external-template-engin-shin",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "jade": "*",
+    "coffee-script": "*",
+    "less": "*",
+    "bower": "*"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "compile": "easy-mincer compile",
+    "start": "easy-mincer start"
+  },
+  "author": "asaake",
+  "license": "MIT"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "knockout-external-template-engin-shin",
+  "version": "0.0.1",
+  "homepage": "https://github.com/asaake/knockout-external-template-engin-shin",
+  "authors": [
+    "asaake <asaake88@gmail.com>"
+  ],
+  "main": "dest/knockout-external-template-engin-shin.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "app",
+    "bower_components",
+    "manifest",
+    "node_modules",
+    "spec",
+    "bower.json",
+    "easy-mincer.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "console-polyfill": "*",
+    "sugar": "*",
+    "jquery": "*",
+    "knockout": "*",
+    "knockout-es5": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "sinon": "*",
+    "expect": "*",
+    "sinon-expect": "*"
+  }
+}

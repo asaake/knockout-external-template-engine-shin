@@ -1,0 +1,5 @@
+<li>
+    <span data-bind="text: name"></span>
+    <ul data-bind="template: { name: 'city_view', templateUrl: '/stub/city', foreach: cities, afterRender: afterRenderCallback }">
+    </ul>
+</li>
