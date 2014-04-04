@@ -16,6 +16,12 @@ ko.applyBindings(viewModel)
 sudo npm install -g easy-mincer
 git clone https://github.com/asaake/knockout-external-template-engine-shin.git
 cd knockout-external-template-engine-shin
+npm install
+bower install
+cd bower_components/knockout
+npm install
+grunt
+cd ../../
 easy-mincer start
 
 #=> access to [http://localhost:3000/index.html]
